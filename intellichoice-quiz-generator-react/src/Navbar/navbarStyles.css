@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(65, 130, 69);
+}
+
+li {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.left {
+    float: left;
+}
+
+li a {
+    height: 40px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 125px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(182, 205, 179);
+    transition: background-color 0.3s ease-in;
+}
+
+.right {
+    float:right;
+}
