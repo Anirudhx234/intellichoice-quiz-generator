@@ -1,5 +1,4 @@
 import React from "react";
-import './dropdownStyles.css'
 
 export default function Dropdown ({submenu}) {
     return (

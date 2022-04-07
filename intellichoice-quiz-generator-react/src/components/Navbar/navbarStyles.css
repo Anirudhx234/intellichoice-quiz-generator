@@ -37,3 +37,7 @@ li a:hover:not(.active) {
 #practice:hover .dropdown{
     display: block;
 }
+
+.dropdown {
+    display:none
+}
