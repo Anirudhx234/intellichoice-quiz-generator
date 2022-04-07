@@ -33,3 +33,7 @@ li a:hover:not(.active) {
 .right {
     float:right;
 }
+
+#practice:hover .dropdown{
+    display: block;
+}
