@@ -1,4 +1,4 @@
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,12 +32,4 @@ li a:hover:not(.active) {
 
 .right {
     float:right;
-}
-
-#practice:hover .dropdown{
-    display: block;
-}
-
-.dropdown {
-    display:none
 }

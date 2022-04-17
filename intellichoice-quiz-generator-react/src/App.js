@@ -8,7 +8,6 @@ import Practice from './pages/Practice/Practice';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import Grades from './pages/Grades/Grades';
-import Topics from './pages/Topics/Topics';
 
 function App() {
   return (
@@ -20,8 +19,7 @@ function App() {
             <Route path='/practice' element={<Practice />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<Signup />} />
-            <Route path='/practice/grades' element={<Grades />} />
-            <Route path='/practice/topics' element={<Topics />} />
+            <Route path='/practice/:grade' element={<Grades />} />
           </Routes>
       </Router>
       {/* <header className="App-header">
