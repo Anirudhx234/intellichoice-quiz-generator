@@ -1,3 +1,28 @@
-* {
-    background-color: black;
+.topicsList {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#grades .row {
+    margin: 40px 0px 10px 50px;
+}
+
+#grades .col {
+    text-decoration: none;
+    color: rgb(0, 78, 6);
+    margin:0;
+    text-align: center;
+    float: left;
+    width: 22%;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid rgb(65, 130, 69);
+    border-radius: 4px;
+    background-color: rgb(229, 255, 229);
+}
+
+#grades .col:hover {
+    background-color: rgb(96, 159, 100);
+    color: white;
+    transition: 0.5s;
 }

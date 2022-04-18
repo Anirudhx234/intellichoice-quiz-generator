@@ -1,57 +1,62 @@
 import React from 'react'
+import './practiceStyles.css'
 
 export default function Practice () {
     return (
         <>
-            <div>
-                <ul>
-                    <a href='/practice/kindergarten'>
+            <ul className="gradesList">
+                <div id="practice" className="row">
+                    <a type='button' className="col" href='/practice/kindergarten'>
                         <li>
                         Kindergarten
                         </li>
                     </a>
-                    <a href='/practice/first'>
+                    <a type='button'  className="col" href='/practice/first'>
                         <li>
                         Grade 1
                         </li>
                     </a>
-                    <a href='/practice/second'>
+                    <a type='button'  className="col" href='/practice/second'>
                         <li>
                         Grade 2
                         </li>
                     </a>
-                    <a href='/practice/third'>
+                </div>
+                <div id="practice" className="row">
+                    <a type='button'  className="col" href='/practice/third'>
                         <li>
                         Grade 3
                         </li>
                     </a>
-                    <a href='/practice/fourth'>
+                    <a type='button'  className="col" href='/practice/fourth'>
                         <li>
                         Grade 4
                         </li>
                     </a>
-                    <a href='/practice/fifth'>
+                    <a type='button'  className="col" href='/practice/fifth'>
                         <li>
                         Grade 5
                         </li>
                     </a>
-                    <a href='/practice/sixth'>
+                </div>
+                <div id="practice" className="row">
+                    <a type='button'  className="col" href='/practice/sixth'>
                         <li>
                         Grade 6
                         </li>
                     </a>
-                    <a href='/practice/seventh'>
+                    <a type='button'  className="col" href='/practice/seventh'>
                         <li>
                         Grade 7
                         </li>
                     </a>
-                    <a href='/practice/eighth'>
+                    <a type='button'  className="col" href='/practice/eighth'>
                         <li>
                         Grade 8
                         </li>
                     </a>
-                </ul>
-            </div>
+                </div>
+            </ul>
         </>
     )
 }
