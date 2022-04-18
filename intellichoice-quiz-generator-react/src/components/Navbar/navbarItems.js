@@ -6,7 +6,7 @@ export const navbarItems = [
         class: 'left'
     },
     {
-        title: 'Practice',
+        title: 'shitter',
         path: '/practice',
         id: 'practice',
         class: 'left',
