@@ -39,23 +39,6 @@ export default function Practice () {
                         </li>
                     </a>
                 </div>
-                <div id="practice" className="row">
-                    <a type='button'  className="col" href='/practice/sixth'>
-                        <li>
-                        Grade 6
-                        </li>
-                    </a>
-                    <a type='button'  className="col" href='/practice/seventh'>
-                        <li>
-                        Grade 7
-                        </li>
-                    </a>
-                    <a type='button'  className="col" href='/practice/eighth'>
-                        <li>
-                        Grade 8
-                        </li>
-                    </a>
-                </div>
             </ul>
         </>
     )
