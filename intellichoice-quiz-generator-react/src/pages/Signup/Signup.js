@@ -7,12 +7,22 @@ export default function Signup () {
     const [email, SetEmail] = useState("");
     const [password, SetPassword] = useState("");
 
+    const axios = require("axios");
+
     const signupReq = () => {
         SetFirst("");
         SetLast("");
         SetEmail("");
         SetPassword("");
-        console.log("Signup Data Sent");
+        axios.post('/signup', {
+            email: email,
+            password: password,
+            first: first,
+            last: last
+        }).then((res) => {
+            console.log("Signup Data Sent");
+            console.log(res.data);
+        });
     }
     
     

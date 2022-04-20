@@ -1,12 +1,10 @@
+/*
+
 const express = require('express');
 
 const app = express();
 
 const port = process.env.PORT || 5000;
-
-app.get("/login", (req, res) => {
-  res.send("This is the data");
-});
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -19,5 +17,9 @@ app.use((req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  // perform a database connection when server starts
+
+  console.log(`Server is running on port: ${port}`);
 });
+
+*/

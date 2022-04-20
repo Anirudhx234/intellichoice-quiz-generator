@@ -10,10 +10,14 @@ export default function Login () {
     const loginReq = () => {
         SetEmail("");
         SetPassword("");
-        axios.get('/login').then((res) => {
-            console.log(res);
+        axios.post('/login', {
+            email: email,
+            password: password
+
+        }).then((res) => {
+            console.log("Login Data Sent");
+            console.log(res.data);
         });
-        console.log("Login Data Sent");
     }
 
     return (
