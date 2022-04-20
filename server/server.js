@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 app.post("/login", (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
-  res.send("email = "+email+", password is "+password);
+  res.send("email = "+email+", password = "+password);
 })
 
 app.post("/signup", (req, res) => {
@@ -24,7 +24,7 @@ app.post("/signup", (req, res) => {
   const last = req.body.last;
   const email = req.body.email;
   const password = req.body.password;
-  res.send("email = "+email+", password is "+password+", first = "+first+", last = "+last);
+  res.send("email = "+email+", password = "+password+", first = "+first+", last = "+last);
 })
  
 app.listen(port, () => {
