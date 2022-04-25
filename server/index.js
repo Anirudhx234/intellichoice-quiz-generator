@@ -1,3 +1,5 @@
+/*
+
 const express = require('express');
 
 const app = express();
@@ -15,5 +17,9 @@ app.use((req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  // perform a database connection when server starts
+
+  console.log(`Server is running on port: ${port}`);
 });
+
+*/

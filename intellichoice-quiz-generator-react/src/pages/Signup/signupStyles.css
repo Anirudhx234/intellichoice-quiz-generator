@@ -1,0 +1,35 @@
+.signupButton {
+    width: 50%;
+    position: relative;
+	cursor: pointer;
+	user-select: none;
+    color: white;
+    background-color: rgb(65, 130, 69);
+    border: 0;
+    border-radius: 2px;
+    margin: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.signupButton:hover {
+    background-color: rgb(181, 230, 173);
+}
+
+#first {
+    margin: 50px;
+}
+
+.signupFields {
+    width: 25%;
+    text-align: center;
+    position: relative;
+	cursor: pointer;
+	user-select: none;
+    color: #7e837e;
+    background-color: rgb(202, 250, 206);
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    transition: 0.5s;
+}

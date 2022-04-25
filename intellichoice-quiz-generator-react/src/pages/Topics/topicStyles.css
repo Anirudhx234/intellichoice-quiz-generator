@@ -1,0 +1,120 @@
+
+   
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+.start-page {
+  margin-top: 10rem;
+  font-family: "Candara";
+  font-size: 1.2rem;
+}
+
+.question-section {
+  margin-top: 10rem;
+  font-family: "Arial";
+}
+
+.score-section {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} 
+
+.answer-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.next-wrapper {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.next {
+  height: 1.5rem;
+  width: 5rem;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #202020;
+  border-radius: 0.5rem;
+
+  font-weight: 700;
+  font-size: 0.7rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit {
+  height: 1.5rem;
+  width: 5rem;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #202020;
+  border-radius: 0.5rem;
+
+  font-weight: 700;
+  font-size: 0.7rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.restart {
+  height: 2rem;
+  width: 5rem;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #202020;
+  border-radius: 0.5rem;
+
+  font-weight: 700;
+  font-size: 0.7rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-select {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3rem;
+}
+
+.grade-button {
+  margin: 2rem;
+  height: 2rem;
+  width: 8rem;
+  background-color: rgb(66, 188, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-button:hover {
+  background-color: rgb(66, 149, 245);
+}
+
+.line {
+  flex-basis: 100%;
+}

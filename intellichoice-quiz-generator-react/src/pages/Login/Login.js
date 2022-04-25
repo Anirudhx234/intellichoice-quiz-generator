@@ -1,14 +1,32 @@
 import React from 'react'
 import { useState } from 'react';
+import '../Login/loginStyles.css'
 
 export default function Login () {
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, SetEmail] = useState("");
+    const [password, SetPassword] = useState("");
+
+    const axios = require("axios")
+
+    const loginReq = () => {
+        SetEmail("");
+        SetPassword("");
+        axios.post('/login', {
+            email: email,
+            password: password
+
+        }).then((res) => {
+            console.log("Login Data Sent");
+            console.log(res.data);
+        });
+    }
 
     return (
-        <>
-            <input type="text" placeholder='Enter Username Here' value={username} onChange={setUsername}/>
-            <input type="text" placeholder='Enter Password Here' value={password} onChange={setPassword}/>
-        </>
+        <div className="login">
+            <input id="email" className="loginFields" type="text" placeholder='Email' value={email} onChange={e => SetEmail(e.target.value)}/> <br />
+            <input id="password" className="loginFields" type="password" placeholder='Password' value={password} onChange={e => SetPassword(e.target.value)}/> <br />
+            <button className="loginButton" onClick={loginReq}>Login</button>
+
+        </div>
     )
 }
